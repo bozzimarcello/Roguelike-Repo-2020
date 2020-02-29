@@ -203,3 +203,99 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &997413681
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 997413684}
+  - component: {fileID: 997413683}
+  - component: {fileID: 997413682}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &997413682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997413681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7cfe5292ca20754e8e8e4494b4c644e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walls:
+  - {fileID: 5714228234725835033, guid: 8a0ad40ed668aa3499b852ad1949e25d, type: 3}
+  - {fileID: 5714228234725835033, guid: 369f38e475a2eab40abf3d73cd5965db, type: 3}
+  - {fileID: 5714228234725835033, guid: e4184c449d229f34abfb91cbc864c4e1, type: 3}
+  - {fileID: 5714228234725835033, guid: f4050d26849bd0948b60bd527e49911d, type: 3}
+  - {fileID: 5714228234725835033, guid: 02c095b92244fe94390d449c648d72af, type: 3}
+  - {fileID: 5714228234725835033, guid: aa3f136b4f066ff4ca2974aea14be8b2, type: 3}
+  - {fileID: 5714228234725835033, guid: 6db0748796e7d3140b8b0873ae121415, type: 3}
+  - {fileID: 5714228234725835033, guid: 2fd9e7727fe5a144289e021e8228e522, type: 3}
+  - {fileID: 5714228234725835033, guid: 5ffc1bc9ab90c3f4c8fb9a8ac31fa1c0, type: 3}
+  - {fileID: 5714228234725835033, guid: 2303c677ccc19d043aa6e71413e9f92a, type: 3}
+  - {fileID: 5714228234725835033, guid: 4995b7787d3908d4a908c88f14e0561f, type: 3}
+  floors:
+  - {fileID: 4236052959417140037, guid: e3092302785b87b428b52e9a61008234, type: 3}
+  - {fileID: 4236052959417140037, guid: 30a5045c2dd54884a8a4e3880a98ea2f, type: 3}
+  - {fileID: 4236052959417140037, guid: f03aff1207f4b124abd34289d00e2586, type: 3}
+  - {fileID: 4236052959417140037, guid: d8d6c15ea4f3cce4b92f70763016afb6, type: 3}
+  - {fileID: 4236052959417140037, guid: d81f164d4c43dd7458c514a547eed835, type: 3}
+  - {fileID: 4236052959417140037, guid: 3e0e552925b63e448a60f451e60e4b51, type: 3}
+  - {fileID: 4236052959417140037, guid: 39db4146d2062bc419ed3133ba121d7f, type: 3}
+  - {fileID: 4236052959417140037, guid: 5c4f7ea4da45f8e47b447d904d245577, type: 3}
+  dirts:
+  - {fileID: 382029238259377338, guid: ff952125a4b4ccf478d10271540ebf4e, type: 3}
+  - {fileID: 382029238259377338, guid: fdd2d446fa2a20b4f8ed05c563e097f0, type: 3}
+  - {fileID: 382029238259377338, guid: 3c0079122fd3e4f40b4a1a0c1edb2de4, type: 3}
+  - {fileID: 382029238259377338, guid: c5511e7696958e241be83e94e5a82ffe, type: 3}
+  - {fileID: 382029238259377338, guid: 1ac188d102376b749afe03056e049b3f, type: 3}
+  - {fileID: 382029238259377338, guid: 5071f226d916cd540ab04c5e3eaf74ec, type: 3}
+  - {fileID: 382029238259377338, guid: c85208bcb495f7944a41da640eab3a2c, type: 3}
+  enemies:
+  - {fileID: 5272957571646030692, guid: 87ca5af49d8c9074199ace2eab9f8b09, type: 3}
+  - {fileID: 7097236766590808281, guid: 57688b4c3071a164db6efaa52109f8ed, type: 3}
+  exit: {fileID: 9087632583851546395, guid: a0aab89acc5b06641b708d8c553ca10f, type: 3}
+  food: {fileID: 5687811492737700315, guid: 5f62549f9ecdd7c4daf6f16cbd851043, type: 3}
+  soda: {fileID: 8930054340539837454, guid: e8a906371f81d5d4ea89da5581982510, type: 3}
+  player: {fileID: 5281138346063915947, guid: 33379e3617fc16447a64422064fa798b, type: 3}
+  dirtFactor: 3
+  foodFactor: 4
+  enemiesFactor: 1
+--- !u!114 &997413683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997413681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2289e538649f1c54f9b6feca46162a76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingLevel: 1
+--- !u!4 &997413684
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997413681}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

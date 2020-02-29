@@ -1,0 +1,13 @@
+Roguelike 2020 - Project Document
+=================================
+
+The aim of this document is to plan the activities and keep track of decision taken during the game development.
+
+Game theme and assets
+---------------------
+The game will have a post-apocaplyptic theme and will use the 2D Roguelike free assets from the Unity Asset Store.
+
+Development Choices
+-------------------
+The level is generated with a couple of nested loops and a random generator. A matrix of booleand tracks if a cell is taken or not, to avoid superposition.
+Three different multiplication factors (dirt, food, enemies) can be used to tune the level difficulty.
